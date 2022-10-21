@@ -1,0 +1,25 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    animation: epilepsy 0.02s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+@keyframes epilepsy {
+    0% {
+        background-color: #000;
+    }
+    100% {
+        background-color: #fff
+    }
+}
